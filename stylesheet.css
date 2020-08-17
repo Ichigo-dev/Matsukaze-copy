@@ -1,0 +1,651 @@
+@charset "UTF-8";
+
+/*　ページ全体の設定 */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/*　ヘッダー */
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-family: kyokasho_l;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header ul {
+    width: 983px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header img {
+    margin-right: 72px;
+}
+
+li:not(:first-child) {
+    margin-right: 17px;
+}
+
+header a:hover {
+    color: #999999;
+}
+
+.left-logo {
+    float: right;
+}
+
+
+/* ヘッダーここまで */
+
+
+/* コンテンツブロック*/
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* トップイメージ */
+
+.top-image {
+    width: 100%;
+    background-image: url(img/kiku.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+}
+
+.top-image figure {
+    margin: 0;
+    text-align: center;
+    line-height: 600px;
+}
+
+.top-image img {
+    vertical-align: middle;
+}
+
+
+/* トップイメージここまで */
+
+
+/* こだわり */
+
+.kodawari {
+    text-align: center;
+}
+
+.kodawari h1 {
+    font-size: 27px;
+    line-height: 27px;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 123px;
+    margin-bottom: 63px;
+}
+
+.kodawari p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: kyokasho_l;
+}
+
+.kodawari figure {
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.kodawari a {
+    display: inline-block;
+    margin-top: 48px;
+    margin-bottom: 121px;
+    padding: 11px 52px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+}
+
+.kodawari a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* こだわりここまで */
+
+
+/* あんどーなつ */
+
+.anndounats {
+    height: 531px;
+    background-image: url(img/donuts.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.anndounats h2 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 19px;
+    line-height: 30px;
+    padding-top: 110px;
+    padding-bottom: 61px;
+}
+
+.anndounats span {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.anndounats p {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}
+
+.anndounats .container {
+    width: 511px;
+    margin-left: 50%;
+}
+
+.anndounats a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 11px 52px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+}
+
+.anndounats a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* あんどーなつここまで */
+
+
+/* 商品のご紹介 */
+
+.syoukai {
+    background-image: url(img/bg_beige.png);
+    text-align: center;
+}
+
+.syoukai h1 {
+    margin: 0;
+    padding-top: 102px;
+    padding-bottom: 57px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.syoukai p {
+    margin: 0;
+    padding-bottom: 57px;
+    font-size: 16px;
+}
+
+.syoukai img:not(:last-child) {
+    margin-right: 25px;
+}
+
+.syoukai a {
+    display: inline-block;
+    margin-top: 65px;
+    margin-bottom: 100px;
+    padding: 11px 61px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+}
+
+.syoukai a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* 商品のご紹介ここまで */
+
+
+/* お知らせ */
+
+.news {
+    text-align: center;
+}
+
+.news h1 {
+    margin: 0;
+    padding-top: 103px;
+    padding-bottom: 57px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: solid 1px #EDE9DA;
+}
+
+.news a {
+    display: inline-block;
+    margin-top: 34px;
+    margin-bottom: 100px;
+    padding: 11px 52px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+}
+
+.news a:hover {
+    color: white;
+    background-color: royalblue;
+}
+
+
+/* お知らせここまで */
+
+
+/* コンテンツブロックここまで */
+
+
+/* フッター */
+
+
+/* ご注文・お問い合わせ */
+
+.tyuumon {
+    background-image: url(img/bg_beige.png);
+    text-align: center;
+}
+
+.tyuumon h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 104px;
+    padding-bottom: 60px;
+}
+
+.tyuumon p {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.two {
+    padding-bottom: 44px;
+}
+
+.tyuumon h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.one {
+    margin-bottom: 23px;
+}
+
+.tyuumon a {
+    display: inline-block;
+    margin-top: 34px;
+    margin-bottom: 100px;
+    padding: 11px 11px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+    margin-top: 61px;
+    margin-bottom: 100px;
+}
+
+.tyuumon a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* ご注文・お問い合わせここまで */
+
+
+/* 会社概要・店舗情報 */
+
+.tenpo {
+    text-align: center;
+}
+
+.tenpo h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 102px;
+    padding-bottom: 58px;
+}
+
+.i {
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+    display: flex;
+    margin-right: 105px;
+}
+
+.text h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.main-text {
+    display: flex;
+}
+
+.main-text p {
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.name {
+    margin-right: 52px;
+}
+
+.jouho p {
+    line-height: 24px;
+}
+
+.jouho p:not(:last-child) {
+    padding-bottom: 29px;
+}
+
+.twoline {
+    padding-bottom: 52px;
+}
+
+.oneline {
+    padding-bottom: 29px;
+}
+
+.map {
+    width: 480px;
+    height: 256px;
+    background-color: black;
+}
+
+.ggmap>iframe {
+    height: 300px;
+}
+
+.tenpo a {
+    display: inline-block;
+    margin-top: 34px;
+    margin-bottom: 100px;
+    padding: 11px 11px;
+    border: solid 2px #7D7D7D;
+    font-size: 16px;
+    margin-top: 39px;
+    margin-bottom: 100px;
+}
+
+.tenpo a:hover {
+    color: white;
+    background-color: black;
+}
+
+iframe {
+    width: 476px;
+    height: 225px;
+}
+
+
+/* 会社概要・店舗情報ここまで */
+
+
+/* フッターラベル */
+
+.footer-label {
+    background-color: black;
+    color: white;
+}
+
+.footer-label .container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-label {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-right: 101px;
+}
+
+.left-label img {
+    margin-bottom: 27px;
+}
+
+.left-label h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 17px;
+}
+
+.left-label p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right-label {
+    padding-top: 34px;
+}
+
+.text-label {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.right-label ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-label li {
+    margin: 0;
+}
+
+.onerow {
+    margin-right: 52px;
+}
+
+.tworow {
+    margin-right: 34px;
+}
+
+.image-label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-label img {
+    vertical-align: bottom;
+}
+
+img[src="img/btn_fb.png"] {
+    margin-right: 7px;
+}
+
+
+/* フッターラベルここまで */
+
+
+/* コピーライト */
+
+.footer-line {
+    height: 75px;
+}
+
+.footer-line p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    line-height: 75px;
+}
+
+
+/* コピーライトここまで */
+
+
+/*　フッターここまで */
+
+
+/* 問い合わせ */
+
+.top-text {
+    height: 300px;
+    background-image: url(img/bg_beige.png);
+}
+
+.top-text h1 {
+    font-size: 29px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 300px;
+    margin: 0;
+}
+
+.setumei {
+    height: 415px;
+}
+
+.setumei p {
+    margin: 0;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.setumei h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.setumeiText {
+    padding-top: 107px;
+}
+
+.setumeiNamber {
+    padding-top: 55px;
+    padding-bottom: 101px;
+}
+
+.form {
+    background-image: url(img/bg_beige.png);
+    height: 695px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.di {
+    display: flex;
+    width: 719px;
+    justify-content: space-between;
+    padding-bottom: 21px;
+}
+
+.di input,
+.di textarea {
+    width: 539px;
+    padding: 0;
+}
+
+.di input {
+    height: 43px;
+}
+
+.di textarea {
+    height: 246px;
+}
+
+.form p {
+    margin: 0;
+    padding-right: 111px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    text-align: center;
+}
+
+.form input[type="submit"] {
+    padding: 9px 73px;
+    font-size: 16px;
+    background-color: black;
+    transition: 0.5s;
+    color: #ffffff;
+    /* border: none; */
+}
+
+.form input[type="submit"]:hover {
+    background-color: white;
+    color: #474747;
+}
+
+.housin {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 103px 0 133px 0;
+}
+
+.tag {
+    font-weight: bold;
+}
+
+.boutou {
+    padding-bottom: 36px;
+}
+
+.housin p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.housin ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 32px;
+}
+
+.c-btn {
+    border: black solid 1px;
+}
+
+
+/* 問い合わせここまで */
