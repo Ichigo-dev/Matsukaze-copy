@@ -3,6 +3,7 @@
 /*　ページ全体の設定 */
 
 body {
+    min-width: 1024px;
     margin: 0;
     font-family: sans-serif;
 }
